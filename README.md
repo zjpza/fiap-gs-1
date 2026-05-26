@@ -23,9 +23,9 @@
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://github.com/nicollycrs">Nicolly de Souza</a>
+- Sabrina Otoni
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/in/example">Nome do Coordenador</a>
+- André Godoi
 
 ## 📜 Descrição
 
