@@ -1,0 +1,7 @@
+# Instale as bibliotecas necessarias do projeto abaixo:
+
+# exemplo:
+# numpy
+# pandas
+# scikit-learn
+# matplotlib
