@@ -1,0 +1,4 @@
+Modelo,Tarefa,MAE (°C),RMSE (°C),R²,Acurácia,AUC-ROC
+Ridge Regression,Regressão (Temp. T+1),1.44,1.801,0.7099,-,-
+Random Forest Regressor,Regressão (Temp. T+1),1.486,1.852,0.6932,-,-
+RF Classifier,Classificação (Chuva T+1),-,-,-,0.7583,0.6112
