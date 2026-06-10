@@ -169,7 +169,7 @@ fiap-gs-1/
 
 ## 🔗 Links
 
-- 🎬 **Vídeo demonstrativo:** `<link_youtube_aqui>` (YouTube — não listado)
+- 🎬 **Vídeo demonstrativo:** `(https://youtu.be/6Htqqw1giQw)` (YouTube)
 - 📄 **PDF de entrega:** `docs/climAI_Farm_GS2026.pdf`
 - 🛰️ **NASA POWER API:** https://power.larc.nasa.gov/
 - 🌤️ **OpenWeatherMap:** https://openweathermap.org/api
