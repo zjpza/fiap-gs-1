@@ -1,30 +1,33 @@
 # climAI Farm — Global Solution 2026.1
 # Instale com: pip install -r requirements.txt
+#
+# Pins soltos (>=) para compatibilidade com Python 3.13/3.14.
+# Versoes antigas fixas (==) nao tinham wheel para 3.14 e falhavam ao compilar.
 
 # --- Core ---
-pandas==2.2.3
-numpy==1.26.4
+pandas>=2.2.3
+numpy>=1.26.4
 
 # --- Machine Learning ---
-scikit-learn==1.5.2
-joblib==1.4.2
+scikit-learn>=1.5.2
+joblib>=1.4.2
 
 # --- Visualização ---
-matplotlib==3.9.2
-seaborn==0.13.2
-plotly==5.24.1
+matplotlib>=3.9.2
+seaborn>=0.13.2
+plotly>=5.24.1
 
 # --- Dashboard ---
-streamlit==1.40.0
+streamlit>=1.40.0
 
 # --- Dados em tempo real ---
-requests==2.32.3
+requests>=2.32.3
 
 # --- ESP32 / Serial ---
-pyserial==3.5
+pyserial>=3.5
 
 # --- PDF ---
-reportlab==4.2.5
+reportlab>=4.2.5
 
 # --- Utilitários ---
-python-dotenv==1.0.1
+python-dotenv>=1.0.1

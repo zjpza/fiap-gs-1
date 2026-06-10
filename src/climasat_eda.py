@@ -13,6 +13,7 @@ Parâmetros coletados:
   - WS2M      : Velocidade do vento a 2m (m/s)
 """
 
+import sys
 import requests
 import pandas as pd
 import numpy as np
@@ -21,6 +22,9 @@ import matplotlib.dates as mdates
 import seaborn as sns
 import os
 import json
+
+# Garante saída UTF-8 no terminal (Windows usa cp1252 por padrão)
+sys.stdout.reconfigure(encoding="utf-8")
 
 # ──────────────────────────────────────────────
 # 0. CONFIGURAÇÕES GERAIS

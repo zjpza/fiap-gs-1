@@ -12,6 +12,7 @@ O arquivo  esp32_leituras.json  é atualizado a cada leitura
 e lido pelo dashboard em tempo real.
 """
 
+import sys
 import serial
 import serial.tools.list_ports
 import json
@@ -22,6 +23,9 @@ import argparse
 import threading
 from datetime import datetime
 from http.server import HTTPServer, BaseHTTPRequestHandler
+
+# Garante saída UTF-8 no terminal (Windows usa cp1252 por padrão)
+sys.stdout.reconfigure(encoding="utf-8")
 
 # ──────────────────────────────────────────────
 # CONFIGURAÇÕES

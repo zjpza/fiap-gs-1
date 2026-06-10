@@ -14,6 +14,7 @@ Entrada : climasat_output/climasat_dados_limpos.csv  (gerado no Step 2)
 Saídas  : climasat_output/  (gráficos + modelos .pkl)
 """
 
+import sys
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,6 +24,9 @@ import joblib
 import os
 import warnings
 warnings.filterwarnings("ignore")
+
+# Garante saída UTF-8 no terminal (Windows usa cp1252 por padrão)
+sys.stdout.reconfigure(encoding="utf-8")
 
 from sklearn.model_selection    import train_test_split, cross_val_score
 from sklearn.linear_model       import Ridge
