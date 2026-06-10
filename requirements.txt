@@ -1,8 +1,5 @@
 # climAI Farm — Global Solution 2026.1
 # Instale com: pip install -r requirements.txt
-#
-# Pins soltos (>=) para compatibilidade com Python 3.13/3.14.
-# Versoes antigas fixas (==) nao tinham wheel para 3.14 e falhavam ao compilar.
 
 # --- Core ---
 pandas>=2.2.3
